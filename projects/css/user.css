@@ -1,0 +1,44 @@
+.form{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.login{
+    position: absolute;
+   transform: translate(0,-53px);
+}
+.form span,.login span{
+ display: inline-block;
+ transform: translate(-72px,38px);
+}
+.form .field input,.form .login input{
+    display: flex;
+    width: 290px;
+    height: 28px;
+    padding: 0px 5px;
+    line-height: 28px;
+	margin-top:5%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(167, 169, 172) rgb(209, 211, 212) rgb(209, 211, 212);
+    background: #EBEBE4;
+}
+.form .btn,.form .return,.form .btns{
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+}
+.can{
+  position:fixed;
+  top:74%;
+}
+.can .btns{
+ transform: translate(103px);
+}
+.can .return{
+transform: translate(0,42px);
+}
+/*.result_userpwd,.result_username{
+  height:0;
+}*/

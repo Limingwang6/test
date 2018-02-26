@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Harbor House家居-购物车</title>
+    <link rel="stylesheet" href="../css/indexs.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/shopping_cart.css"/>
+</head>
+<body style="overflow-x: hidden;">
+ <div class="header"></div>
+ <div class="modal" style="display:none">
+        <div class="modal_dialog">
+            <div class="modal_header">
+            删除提醒
+            </div>
+            <div class="modal_information">
+            <img src="../image/model_img2.png" alt="">
+            <span>确定删除您的这个宝贝吗？</span>
+            </div>
+            <div class="yes"><span>删除</span></div>
+            <div class="no"><span>不删除</span></div>
+        </div>
+</div>
+ <div class="shop">
+    <ul>
+        <li class="active">
+            我的购物车
+        </li>
+        <li>
+            确认订单信息
+        </li>
+        <li>
+            选择支付方式
+        </li>
+        <li>
+            完成
+        </li>
+    </ul>
+ </div>
+ <div class="step">
+    <div class="tips">
+        温馨提示：购物车中的商品无法保留库存，请您及时结算，商品库存以订单结算时为准！
+    </div>
+     <div class="show">
+         <div class="wrapper">
+           <div class="shopping_th">
+              <ul>
+                  <li class="checkbox">
+                      <label class="normal">
+                          <img src="../img/normal.png" class="Cinput"/>全选
+                      </label>
+                  </li>
+                  <li class="product_name">商品信息</li>
+                  <li class="product_price">单价</li>
+                  <li class="product_num">数量</li>
+                  <li class="product_operate">操作</li>
+              </ul>
+           </div>
+          
+ 		   <div class="items">
+ 		        <!-- <div class="shopping_td">
+ 				      <ul>
+ 							<li class="checkbox">
+ 							   <div class="item_pic" >
+ 							       <img src=${item.is_checked=="1"?"../img/true.png":"../img/normal.png"} class="check">
+ 								   <a href="product_details.html?pid=${item.pid}">
+ 								      <img src="${item.md}" alt="">
+ 								   </a>
+ 							   </div>
+ 							</li>
+ 							<li class="product_name">
+                                <div class="item_info">
+                                    <h3>
+                                        <a href="product_details.html?lid=${item.lid}"
+                                           id="productname">${item.title}</a>
+                                    </h3>
+                                    <p id="color">东南亚橡胶木 - 白色</p>
+                                    <p id="standard">规格: ${item.spec}</p>
+                                </div>
+                            </li>
+ 							<li class="product_price">
+                                <div class="item_price">
+                                    <p id="price" class="original">${item.prev_price}</p>
+                                    <p class="red_price" id="disprice">￥${item.current_price}</p>
+                                </div>
+                            </li>
+ 							<li class="product_num">
+                                <div class="item_num">
+                                    <div class="qty">
+                                        <input type="text" maxlength="3" value="${item.count}" class="qty_val"
+                                        name="quantity">
+                                        <button class="plus">+</button>
+                                        <button class="minus">-</button>
+                                    </div>
+                                </div>
+                            </li>
+ 							<li class="product_operate">
+                                <div class="item_operate">
+                                    <a href="" class=del_d >[删除]</a>
+                                </div>
+                            </li>
+ 					  </ul>
+ 				 </div>
+ 		   </div>-->
+         </div>
+     </div>
+         <div class="summary">
+             <div class="summarys">
+                 <dl class="totel">
+                     <dt>
+                         <span class="product_num">商品数量总计:
+                          <strong id="productcount">0</strong> 件
+                         </span>
+                         商品金额（不含运费）:
+                     </dt>
+                     <dd id="totalPrice">￥0.00</dd>
+                 </dl>
+                 <dl class="PT30">
+                     <dt>合计 :</dt>
+                     <dd class="price" id="totalamount">￥0.00</dd>
+                 </dl>
+                 <dl class="PT10">
+                     <a href="product.html" class="btn">继续购物</a>
+                     <button type="button" class="btns">结算</button>
+                 </dl>
+             </div>
+         </div>
+         
+ </div>
+ <div class="footer"></div>
+ <script src="../js/ajax.js"></script>
+ <script src="../js/jquery-1.11.3.js"></script>
+ <script src="../js/jquery-ui.js"></script>
+ <script src="../js/shopping_cart.js"></script>
+</body>
+</html>

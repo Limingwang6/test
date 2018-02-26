@@ -1,0 +1,19 @@
+<?php
+/**
+* 修改购物车条目中的是否勾选
+*/
+header('Content-Type: application/json;charset=UTF-8');
+
+@$iid = $_REQUEST['iid'] ;
+@$checked = $_REQUEST['checked'];
+if($checked!=='0' && !$checked){
+  die('{"code":402,"msg":"checked required"}');
+}
+require_once('init.php');
+$sql = "UPDATE furniture_shoppingcart SET is_checked=$checked WHERE iid=$iid";
+$result = mysqli_query($conn, $sql);
+if($result){
+  echo '{"code":200, "msg":"update succ"}';
+}else {
+  echo '{"code":500, "msg":"update err"}';
+}

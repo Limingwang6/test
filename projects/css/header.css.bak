@@ -1,0 +1,890 @@
+#header {
+    height: 230px;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    margin-top: -25px;
+}
+
+.banner ul.banner-img {
+    position: absolute;
+    left: 0px;
+}
+
+.banner ul.banner-img>li {
+    float: left;
+}
+
+.banner ul.banner-img img {
+    width: 1960px;
+    margin-left: -42px;
+    height: 600px;
+    margin-top: 1%;
+}
+
+.banner ul.banner-img li {
+    width: 1960px;
+}
+
+.banner ul.indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -34px;
+    list-style: none;
+}
+
+.banner ul.indicators li {
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    transition: all 0.01s linear;
+}
+
+.banner ul.indicators li:hover,
+#banner ul.indicators li.hover {
+    cursor: pointer;
+    background-color: #414042;
+}
+
+.containers2 {
+    margin-top: 30px;
+}
+
+.containers2 .img1 {
+    margin: 0 auto;
+    width: 1180px;
+    display: flex;
+}
+
+.containers2 a {
+    display: flex;
+    margin-top: 30px;
+}
+
+.img2 {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.homebanner {
+    position: relative;
+    z-index: 10;
+    width: auto;
+    margin: 0px auto;
+}
+
+.banner_prev {
+    position: absolute;
+    top: 220px;
+    left: 114px;
+    width: 42px;
+    height: 113px;
+    cursor: pointer;
+    background: url(../image/arrowhead.png) 0px -60px;
+}
+
+.banner_next {
+    position: absolute;
+    top: 220px;
+    width: 42px;
+    height: 113px;
+    cursor: pointer;
+    transform: rotate(180deg);
+    background: url(../image/arrowhead.png) 0px -60px;
+    right: 114px;
+}
+
+.autumn_box {
+    padding: 0 0 25px;
+    margin-left: -4%;
+}
+
+.autumn_bg {
+    height: 500px;
+    width: 7000px;
+}
+
+.autumn_bg li {
+    list-style: none;
+    margin-left: -8%;
+}
+
+.autumn_bg li a {
+    float: left;
+    padding: 0 6px;
+    margin-top: 26px;
+}
+
+.autumn_lg {
+    margin-left: -3%;
+}
+
+.autumn_lg .autumn_bg li a img {
+    border: 2px solid transparent;
+    display: none;
+    height: 500px;
+}
+
+.autumn_bg li a img:hover {
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+.autumn_bg li a img {
+    border: 2px solid transparent;
+}
+
+.autumn_lg .autumn_bg li {
+    position: absolute;
+    left: 25%;
+    margin-top: -4px;
+}
+
+.autumn_gt {
+    height: 500px;
+    width: 7000px;
+}
+
+.autumn_gt a img {
+    float: left;
+}
+
+.autumn_opacity_left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 500px;
+    width: 990px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.autumn_opacity_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 500px;
+    width: 990px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.autumn_btn_left {
+    width: 70px;
+    height: 70px;
+    background-image: url(../image/right.png);
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    left: 2010px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.autumn_btn_right {
+    width: 70px;
+    height: 70px;
+    background-image: url(../image/left.png);
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    left: 890px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.mt27,
+.mt28 {
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.mt28 a {
+    margin-top: -5px;
+    display: inline-block;
+}
+
+.over {
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.over div {
+    display: flex;
+    margin-top: 30px;
+}
+
+.newyears04 {
+    display: block;
+    background: url(../image/footer.jpg) center no-repeat;
+    height: 427px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.newyears04 a {
+    width: 50%;
+    height: 220px;
+    font-size: 0;
+    float: left;
+}
+
+.clearfix {
+    margin-left: -4px;
+    margin-top: 26px;
+    position: absolute;
+    width: 1180px;
+    height: 398px;
+    padding: 10px 0px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(209, 211, 212);
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 2px 0px;
+}
+
+.coll {
+    float: left;
+    width: 120px;
+    padding: 15px 0px 0px 60px;
+}
+
+.coll dl {
+    padding: 8px 0px 20px;
+}
+
+.coll dl dd ul li {
+    position: relative;
+    height: 21px;
+    line-height: 21px;
+    padding: 2px 0;
+}
+
+.coll dl dd.d1 {
+    position: absolute;
+    top: 60px;
+    left: -10px;
+    padding: 3px 0;
+}
+
+.coll dl dd.d2 {
+    position: absolute;
+    top: 190px;
+    left: -10px;
+    padding: 3px 0;
+}
+
+.coll dt.dds {
+    position: relative;
+    height: 26px;
+    line-height: 26px;
+    margin-top: 56px;
+}
+
+.coll2 dl dt {
+    position: absolute;
+    top: 38px;
+    left: 240px;
+}
+
+.coll2 dl dd {
+    position: absolute;
+    left: 170px;
+    top: 62px;
+    padding: 4px 0;
+}
+
+.coll2 dl dd ul li {
+    padding: 4px 0;
+}
+
+.coll2 dl.two dd {
+    position: absolute;
+    left: 170px;
+    top: 187px;
+}
+
+.coll2 dl.two dd ul li {
+    padding: 5px 0;
+}
+
+.coll2 dl.two dt {
+    margin-top: 127px;
+}
+
+.coll3 {
+    position: absolute;
+    top: 5%;
+    left: 34%;
+}
+
+.coll3 dl dd {
+    margin-left: -28px;
+}
+
+.coll3 dl dd ul li,
+.coll4 dl dd ul li,
+.coll5 dl dd ul li,
+.coll6 dl dd ul li {
+    padding: 4px 0;
+}
+
+.coll4 {
+    position: absolute;
+    top: 17px;
+    right: 345px;
+}
+
+.coll4 dl dd,
+.coll5 dl dd {
+    margin-left: -30px;
+}
+
+.coll5 {
+    position: absolute;
+    top: 18px;
+    right: 240px;
+}
+
+.coll6 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    width: 220px;
+    height: 350px;
+    margin: 0px 0px 0px 17px;
+    padding: 26px 20px 0px;
+    border-left: 1px solid rgb(209, 211, 212);
+}
+
+.coll6 h2 {
+    transform: translate(0px, -10px);
+}
+
+.coll6 dl {
+    position: relative;
+    top: -34px;
+}
+
+.coll6 dl dd {
+    padding: 15px 0px 0px;
+    margin-left: -27px;
+}
+
+.colls p {
+    display: inline-block;
+    margin: -50px 4px;
+}
+
+.clearfixs {
+    width: 638px;
+    height: 398px;
+    position: absolute;
+    top: 23px;
+    padding: 10px 0px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(209, 211, 212);
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 2px 0px;
+}
+
+.cols dl dd {
+    margin-left: -27px;
+}
+
+.cols dl dd ul li {
+    padding: 4px 0;
+}
+
+.cols dl {
+    margin-left: 60px;
+    margin-top: 38px;
+}
+
+.cols dl dd ul {
+    margin-left: -3px;
+}
+
+.cols2 {
+    margin-top: 23px;
+    padding: 15px 0px 0px 60px;
+}
+
+.cols2 dl dd {
+    margin-left: -30px;
+}
+
+.cols2 dl dd ul li {
+    padding: 4px 0;
+}
+
+.cols2 dl {
+    margin: 0px -42px;
+}
+
+.coll7 dl dd ul {
+    float: left;
+    margin-left: -5%;
+}
+
+.coll8 {
+    transform: translate(170px, 10px);
+}
+
+.coll8 p:last-child {
+    margin-top: -20px;
+}
+
+.coll7 dl dd ul li {
+    padding: 4px 0;
+}
+
+.coll7 dl {
+    transform: translate(70px, 4px);
+}
+
+.coll7 dl dd {
+    margin-top: 7px;
+}
+
+.coll7 h2 img {
+    vertical-align: top;
+    transform: translate(68px, 25px);
+}
+
+.coll8 {
+    margin-left: 190px;
+    margin-top: -115px;
+    height: 395px;
+    border-left: 1px solid rgb(209, 211, 212);
+}
+
+ul.first li {
+    padding-bottom: 10px;
+}
+
+.submenu {
+    width: 638px;
+    height: 398px;
+    position: absolute;
+    top: 20px;
+    padding: 10px 0px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(209, 211, 212);
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 2px 0px;
+}
+
+.submenu dl dd ul li {
+    padding: 4px 0;
+}
+
+.submenu dl dt {
+    margin-left: 68px;
+    margin-top: 28px;
+}
+
+.subs2 h2 {
+    float: right;
+    transform: translate(-185px, -113px);
+}
+
+.subs2 dl {
+    float: right;
+    transform: translate(-20px, -105px);
+}
+
+.subs2 dl dt {
+    padding-bottom: 8px;
+}
+
+.subs2 {
+    margin-top: -45%;
+}
+
+.subs3 {
+    position: absolute;
+    top: 37%;
+    right: 4%;
+}
+
+.right3 dl {
+    border-right: 1px solid rgb(209, 211, 212);
+    margin-right: 42%;
+    height: 365px;
+}
+
+.submenus {
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    width: 998px;
+    height: 398px;
+    padding: 10px 0px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(209, 211, 212);
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 2px 0px;
+}
+
+.left4 dl ul li {
+    padding: 4px 0;
+}
+
+.page dl dt {
+    margin-left: 58px;
+}
+
+.page {
+    margin-top: 28px;
+}
+
+.page dl,
+.page2 dl,
+.page3 dl {
+    margin-bottom: 28px;
+}
+
+.page dl dd {
+    margin-left: 28px;
+}
+
+.page2 {
+    position: absolute;
+    float: left;
+    top: 7px;
+    padding: 15px 0px 0px 60px;
+    left: 179px;
+}
+
+.page2 dl dd {
+    margin-left: -28px;
+}
+
+.page3 {
+    position: absolute;
+    top: 22px;
+    left: 415px;
+}
+
+.page3 dl dd {
+    margin-left: -28px;
+}
+
+.page5 dl dd ul li,
+.subs4 dd ul li {
+    padding: 4px 0;
+}
+
+.page5 dl dd {
+    transform: translate(-70px, 4px);
+}
+
+.page5 {
+    position: absolute;
+    top: -2px;
+    right: 190px;
+}
+
+.page5 dl {
+    margin-top: 40px;
+}
+
+.subs4 {
+    position: absolute;
+    top: 17px;
+    right: 10px;
+    float: right;
+    height: 350px;
+    margin: 0px 0px 0px 17px;
+    padding: 26px 20px 0px;
+    border-left: 1px solid rgb(209, 211, 212);
+}
+
+.subs4 dl dt {
+    margin-top: -22px;
+}
+
+.subs4 dl dd {
+    transform: translate(-67px, 11px);
+}
+
+.submenus2 {
+    position: absolute;
+    top: 22px;
+    left: 355px;
+    width: 818px;
+    height: 398px;
+    padding: 10px 0px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(209, 211, 212);
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 2px 0px;
+}
+
+.left5 {
+    margin-top: 16px;
+}
+
+.left5 dl dd ul li,
+.list2 dl dd ul li {
+    padding: 4px 0;
+}
+
+.left5 dl dt {
+    margin-left: 68px;
+}
+
+.pno dl dd {
+    margin-top: 5px;
+}
+
+.pno2 dl dd ul li,
+.pno3 dl dd ul li,
+.subs6 dl dd ul li {
+    padding: 4px 0;
+}
+
+.pno2 {
+    position: absolute;
+    left: 240px;
+    top: 10px;
+}
+
+.pno2 dl dd {
+    margin-top: 5px;
+    margin-left: -30px;
+    margin-bottom: 30px;
+}
+
+.pno3 {
+    padding: 15px 0px 0px 60px;
+    position: absolute;
+    top: -5px;
+    right: 208px;
+}
+
+.pno3 dl dd {
+    transform: translate(-68px, 5px);
+}
+
+.subs6 {
+    float: right;
+    height: 350px;
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    margin: 0px 0px 0px 17px;
+    padding: 26px 20px 0px;
+    border-left: 1px solid rgb(209, 211, 212);
+}
+
+.subs6 h2 {
+    transform: translate(0, -20px);
+}
+
+.subs6 dt {
+    margin-top: -19px;
+}
+
+.subs6 dl dd {
+    transform: translate(-68px, 10px);
+}
+
+.subs6 dl {
+    margin-top: -40px;
+}
+
+.submenus3 {
+    position: absolute;
+    top: 19px;
+    right: 0px;
+    width: 818px;
+    height: 398px;
+    padding: 10px 0px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(209, 211, 212);
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 2px 0px;
+}
+
+.list dl dd ul li {
+    padding: 4px 0;
+}
+
+.list dl dt {
+    margin: 27px 66px;
+}
+
+.list dl dd {
+    margin-top: -24px;
+}
+
+.list2 {
+    position: absolute;
+    top: 20px;
+    right: 218px;
+}
+
+.list2 dl dd {
+    margin-left: -29px;
+    margin-top: 6px;
+}
+
+.list2 dl {
+    margin-bottom: 30px;
+}
+
+.submenus4 {
+    position: absolute;
+    top: 22px;
+    right: -4px;
+    width: 998px;
+    height: 398px;
+    padding: 10px 0px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(209, 211, 212);
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 2px 0px;
+}
+
+.flex dl dd ul li,
+.flexs dl dd ul li {
+    padding: 4px 0;
+}
+
+.flex dl dt,
+.flexs dl dt {
+    margin-left: 68px;
+}
+
+.flex {
+    margin-top: 26px;
+}
+
+.flex dl {
+    margin-bottom: 28px;
+}
+
+.shopping_cart_top {
+    position: absolute;
+    top: 25px;
+    right: 15%;
+    z-index: 20;
+    width: 260px;
+    padding: 30px 40px;
+    height: 100px;
+    border: 1px solid rgb(209, 211, 212);
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) -5px 5px 5px 0px;
+}
+
+.shopping_cart_top p {
+    margin: 10% 20%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    margin-bottom: -10%;
+}
+
+.autumn_lg>.autumn_bg>li>div {
+    width: 100px;
+    height: 500px;
+    position: absolute;
+    top: 28px;
+    background-image: url(../image/2.jpg);
+}
+
+.autumn_lg>.autumn_bg>li>div:nth-child(2) {
+    left: 0px;
+    background-position: 0px 0px;
+}
+
+.autumn_lg>.autumn_bg>li>div:nth-child(3) {
+    left: 98px;
+    background-position: -98px 0px;
+}
+
+.autumn_lg>.autumn_bg>li>div:nth-child(4) {
+    left: 198px;
+    background-position: -198px 0px;
+}
+
+.autumn_lg>.autumn_bg>li>div:nth-child(5) {
+    left: 298px;
+    background-position: -298px 0px;
+}
+
+.autumn_lg>.autumn_bg>li>div:nth-child(6) {
+    left: 398px;
+    background-position: -398px 0px;
+}
+
+.autumn_lg>.autumn_bg>li>div:nth-child(7) {
+    left: 498px;
+    background-position: -498px 0px;
+}
+
+.autumn_lg>.autumn_bg>li>div:nth-child(8) {
+    left: 598px;
+    background-position: -598px 0px;
+}
+
+.autumn_lg>.autumn_bg>li>div:nth-child(9) {
+    left: 698px;
+    background-position: -698px 0px;
+}
+
+.autumn_lg>.autumn_bg>li>div:nth-child(10) {
+    left: 789px;
+    background-position: -789px 0px;
+}
+
+.autumn_lg>.autumn_bg>li>div:nth-child(11) {
+    left: 889px;
+    background-position: -890px 0px;
+}
+
+.autumn_lg>.autumn_bg>li>div:nth-child(12) {
+    left: 998px;
+    background-position: -998px 0px;
+}
+
+.shake {
+    animation: shake .5s ease-in-out;
+}
+
+@keyframes shake {
+    0% {
+        top: 0px
+    }
+    20% {
+        top: 120px
+    }
+    50% {
+        top: -90px
+    }
+    65% {
+        top: 60px
+    }
+    80% {
+        top: -40px
+    }
+    90% {
+        top: 30px
+    }
+    100% {
+        top: 0px
+    }
+}
+
+.autumn_bg .li {
+    position: absolute;
+}
+
+#nav div.search {
+    transform: translate(0px, 22px);
+}

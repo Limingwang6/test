@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Harbor House家居-注册</title>
+    <!--<link rel="stylesheet" href="css/base.css">-->
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+</head>
+
+<body>
+    <div class="main clear main1">
+        <!-- 加载页头 -->
+        <div id="header"></div>
+        <!-- 主体部分，登陆注册页面 -->
+        <div id=container>
+            <!--  1.div 1180*560 -->
+            <div class=container-login>
+                <h3>新会员注册</h3>
+                <form action="" method="post">
+                    <fieldset>
+                        <legend>会员登陆</legend>
+                        <!--注册账号-->
+                        <p>
+                            <label for="uname1">账&nbsp;&nbsp;号</label>
+                            <input type="text" id="uname1" name="uname" placeholder="请输入用户名" required autofocus maxlength="10" minlength="3">
+                            <span class="vali_info">
+                            用户名已经存在
+								</span>
+
+                        </p>
+                        <!--注册密码-->
+                        <p>
+                            <label for="upwd1">密&nbsp;&nbsp;码</label>
+                            <input type="text" id="upwd1" name="upwd" placeholder="请输入登陆密码">
+                            <span class="vali_info">6位数字</span>
+                        </p>
+                        <!--确认密码-->
+                        <p>
+                            <label for="cpwd">确认密码</label>
+                            <input type="text" id="cpwd" name="cpwd" placeholder="请输入登陆密码">
+                            <span class="vali_info">6位数字</span>
+                        </p>
+                        <hr>
+                        <div class="chexkbox">
+                            <label for="check-box">
+                            <input type="checkbox" id="check-box" name="check-box"
+                                   style="margin-top:16px;">
+                            七天内自动登陆
+                            <a href="#">忘记密码</a>
+                        </label>
+                            <div class="login-btn">
+                                <input type="button" value="注&nbsp;&nbsp;&nbsp;册" name="login" class="btns">
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <!--  2.div 411*560 绝对定位 -->
+            <div class=container-register>
+                <h3>我还不是Harbor House会员</h3>
+                <div class="register-btn">
+                    <input type="button" value="登&nbsp;&nbsp;&nbsp;录" name="register-btn" class="btn">
+                </div>
+                <div>
+                    <p>
+                        使用合作平台账号登录
+                    </p>
+                    <div class="register-pay">
+                        <input type="button" name="register-pay">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- 加载页尾 -->
+        <div class="main main2 footer">
+        </div>
+    </div>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

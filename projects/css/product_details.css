@@ -1,0 +1,389 @@
+.details {
+    width: 1180px;
+    margin: 0px auto;
+}
+
+.detail {
+    position: relative;
+    width: 100%;
+    margin: 2%;
+    padding: 0px 0px 45px;
+}
+
+.productImg {
+    position: relative;
+    width: 618px;
+    height: 618px;
+    border: 1px solid rgb(209, 211, 212);
+}
+
+.productImg img {
+    max-width: 618px;
+    max-height: 618px;
+}
+
+.detail_base {
+    float: right;
+    position: relative;
+    width: 460px;
+    min-height: 500px;
+    margin-top: -53%;
+    padding: 0px 0px 120px;
+}
+
+.detail_base h3 {
+    height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: -2px;
+    color: rgb(76, 76, 76);
+}
+
+.numOfPeople {
+    color: rgb(128, 130, 133);
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.numOfPeople span {
+    padding: 0px 20px 0px 0px;
+}
+
+.PriceModBox {
+    font-size: 16px;
+}
+
+.PriceModBox span {
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.PriceModBox span.s1 {
+    text-decoration: line-through;
+}
+
+.PriceModBox span.s2 {
+    padding: 0px 0px 0px 10px;
+    color: rgb(163, 43, 63);
+}
+
+.detail_base p {
+    height: 30px;
+    margin: 0px;
+    font-size: 12px;
+    line-height: 30px;
+    color: rgb(128, 130, 133);
+}
+
+.detail_base p a {
+    color: rgb(32, 117, 168);
+    text-decoration: none;
+}
+
+.detail_base h1 {
+    width: 410px;
+    height: 86px;
+    padding: 0px;
+    position: relative;
+}
+
+.icon_list {
+    position: absolute;
+    left: -46px;
+    top: -32px;
+    width: 610px;
+    transition: all .5s linear;
+}
+
+.product_key {
+    position: relative;
+    margin: 40px 0px 0px;
+    padding: 20px 0px 0px;
+    z-index: 2;
+    background: rgb(255, 255, 255);
+}
+
+.product_key .p_sku {
+    margin: 10px 40px 0px 0px;
+}
+
+.p_prop {
+    display: block;
+    line-height: 22px;
+}
+
+.p_prop dt.fl,
+.p_props dt,
+.p_share .fl {
+    float: left;
+    line-height: 24px;
+    color: rgb(122, 122, 122);
+}
+
+.p_prop dd {
+    margin: 0px 0px 0px 45px;
+}
+
+.p_prop dd a {
+    color: rgb(76, 76, 76);
+    display: inline-block;
+    height: auto;
+    margin: 0px 8px 8px 0px;
+    font-size: 12px;
+    line-height: 24px;
+    text-decoration: none;
+    border: 1px solid rgb(209, 211, 212);
+    border-color: rgb(76, 76, 76);
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px;
+}
+
+.p_sku {
+    margin: 10px 40px 0px 0px;
+}
+
+.p_props dd a img {
+    margin: 1px;
+    border: 1px solid rgb(209, 211, 212);
+    border-color: #000;
+    min-width: 34px;
+    line-height: 30px;
+}
+
+.p_props {
+    margin-top: -6px;
+}
+
+.p_props dd {
+    margin-left: 45px;
+}
+
+.p_props dt {
+    margin-top: 5px;
+}
+
+.qty input {
+    width: 60px;
+    padding: 0px 5px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgb(76, 76, 76);
+    text-align: center;
+    border: 1px solid rgb(209, 211, 212);
+    background: 0px 0px;
+}
+
+.product_detail_btn {
+    position: absolute;
+    bottom: 0px;
+}
+
+.p_action {
+    padding: 36px 0px 19px;
+}
+
+.cart {
+    height: 37px;
+    line-height: 37px;
+    width: 130px;
+    padding: 0px;
+    border-left: 1px outset rgb(88, 89, 91);
+    border-right: 1px outset rgb(88, 89, 91);
+    color: rgb(224, 214, 198);
+    border-bottom: 2px outset rgb(35, 31, 32);
+    background: #414042;
+}
+
+.collection {
+    height: 37px;
+    line-height: 37px;
+    width: 130px;
+    padding: 0px;
+    background: rgb(255, 255, 255);
+    border-width: 1px 1px 2px;
+    border-style: solid;
+    border-color: rgb(187, 189, 190) rgb(100, 92, 82) rgb(146, 148, 150);
+    border-image: initial;
+    color: rgb(109, 110, 113);
+}
+
+.cart,
+.collection {
+    text-align: center;
+    display: inline-block;
+    margin: 0px 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.p_share dd ul {
+    list-style: none;
+}
+
+.p_share dt {
+    margin-top: -20px;
+}
+
+.p_share dd ul li {
+    float: left;
+    margin: 0px 5px 0px 0px;
+}
+
+.sina {
+    background-position: -360px 0px;
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../image/bg.png);
+}
+
+.tenxun {
+    background-position: -400px 0px;
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../image/bg.png);
+}
+
+.renren {
+    background-position: -440px 0px;
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../image/bg.png);
+}
+
+.p_share dd ul li {
+    margin-top: -13px;
+}
+
+.p_tab ul li {
+    list-style: none;
+    float: left;
+    margin: 0px 40px 0px 0px;
+    color: rgb(76, 76, 76);
+    cursor: pointer;
+}
+
+.p_tab ul li.active {
+    border-bottom: 2px solid rgb(128, 130, 133);
+}
+
+.p_tab {
+    height: 26px;
+    line-height: 26px;
+    border-bottom: 1px solid rgb(209, 211, 212);
+}
+
+.p_attrList .fl {
+    float: left;
+    position: relative;
+    bottom: -1px;
+    font-size: 14px;
+    width: 32%;
+    height: 32px;
+    padding: 0px 0px 0px 15px;
+    line-height: 32px;
+    color: rgb(76, 76, 76);
+    border-bottom: 1px dashed rgb(209, 211, 212);
+}
+
+.p_attrList dt {
+    width: 95px;
+    font-weight: 700;
+}
+
+.p_attrList {
+    width: 100%;
+    margin: 40px 0px 0px;
+}
+
+.p_description {
+    padding: 30px 15px 0px;
+    line-height: 30px;
+    color: rgb(76, 76, 76);
+    font-size: 14px;
+    margin: 10px;
+}
+
+.p_description p:first-child {
+    margin-top: 10%;
+}
+
+.icon_list li {
+    height: 82px;
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    border: 1px solid rgb(209, 211, 212);
+}
+
+.mddiv ul {
+    width: 420px;
+    overflow: hidden;
+}
+
+#mask {
+    position: absolute;
+    width: 278px;
+    height: 278px;
+    background: #ffa;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#superMask {
+    position: absolute;
+    width: 618px;
+    height: 618px;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    cursor: move;
+}
+
+.lgDiv {
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    background: #fff;
+    border: 1px solid #ddd;
+    top: 0px;
+    left: 53%;
+    z-index: 10;
+    display: none;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+.icon_list li img {
+    border: 1px solid transparent;
+}
+
+.icon_list li img:hover {
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.icon_list li img:hover {
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+#nav .first {
+    transform: translate(-4px, 0px);
+}
+
+#nav div.search {
+    transform: translate(0px, -3px);
+}
